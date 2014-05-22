@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>DIPARTIMENTO DI INFORMATICA</title>
-<link rel="stylesheet" type="text/css" href="../page.css" />
+<link rel="stylesheet" type="text/css" href="page.css" />
 <script type="text/javascript">
 
 function controllomail(){

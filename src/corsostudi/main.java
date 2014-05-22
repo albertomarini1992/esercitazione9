@@ -84,6 +84,18 @@ public class main extends HttpServlet {
 				rd = request.getRequestDispatcher("../insegnamenti.jsp");
 								
 			}
+          if (ps.equals("add")) {
+				// Parametro ps assente o vuoto, visualizzo la home page del sito.
+				// FUNZIONALIT� DA IMPLEMENTARE
+				//Preparo il Dispatcher
+				rd = request.getRequestDispatcher("../address.html");
+			}
+            if (ps.equals("mail")) {
+				// Parametro ps assente o vuoto, visualizzo la home page del sito.
+				// FUNZIONALIT� DA IMPLEMENTARE
+				//Preparo il Dispatcher
+				rd = request.getRequestDispatcher("../mailing_list.html");
+			}
                 //Passo il controllo alla JSP
                 rd.forward(request,response);
 

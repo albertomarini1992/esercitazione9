@@ -18,9 +18,9 @@
 				<b><a href=mailto:segreteria.di@ateneo.univr.it> segreteria.di@ateneo.univr.it </a></b>
 	<br/><br/>
 			
-				<b><a href=?ps=didattica.jsp> Didattica erogata </a></b>
+				<b><a href=?ps=did> Didattica erogata </a></b>
 				<br/><br/>
-				<b><a href=../mailing_list.html> Iscrizione alla Mailiing list </a></b>
+				<b><a href=?ps=mail> Iscrizione alla Mailing list </a></b>
 			</p>
 		</body>
 
