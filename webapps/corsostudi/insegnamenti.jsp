@@ -41,7 +41,7 @@
 %>
 <hr align="left" size="1" width="100%" color="yellow" noshade>
 
-    <li> <b> Codice: </b> <%= iddidb.getCodiceFromInsegn() %> <%=iddidb.getModulo()%> </li>
+    <li> <b> Codice: </b> <%= iddidb.getCodiceFromInsegn() %> </li>
 
     <li> <b> Nome:</b> <%= iddidb.getNomeFromInsegn() %> </li>
 

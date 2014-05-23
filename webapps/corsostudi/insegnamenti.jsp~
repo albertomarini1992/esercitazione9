@@ -39,6 +39,7 @@
 <% if (!nome.equals(nomePrec))
     {
 %>
+<hr align="left" size="1" width="100%" color="yellow" noshade>
 
     <li> <b> Codice: </b> <%= iddidb.getCodiceFromInsegn() %> <%=iddidb.getModulo()%> </li>
 
@@ -64,7 +65,6 @@
 
 %>
     </ul>
-<hr align="left" size="1" width="100%" color="yellow" noshade>
 
 <%  nomePrec = nome;  } %>
 
