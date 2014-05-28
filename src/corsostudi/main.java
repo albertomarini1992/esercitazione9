@@ -56,8 +56,6 @@ public class main extends HttpServlet {
 
                 IdDidBean db = (IdDidBean) iddid.get(0);
 
-                String id_stocazzo = dbms.getIdCorso(db.getCodice());
-
                 request.setAttribute("did",iddid);
 				//Preparo il Dispatcher
 				rd = request.getRequestDispatcher("../didattica.jsp");
